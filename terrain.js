@@ -129,7 +129,7 @@ function marchingSquares(pts)
                 ctx.lineTo(segments[j*6+4]*tileX+topLeft.x, segments[j*6+5]*tileY+topLeft.y);
                 ctx.fill();
                 ctx.closePath();
-                //ctx.stroke();
+                ctx.stroke();
             }
 
             if(DEBUG)
